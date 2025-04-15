@@ -1,51 +1,64 @@
+/* Estilos gerais para o corpo da página */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    background-color: #333;
-    padding: 0;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif; /* Define a fonte como Arial, com alternativas caso não esteja disponível */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: white; /* Define a cor do texto como branca */
+  background-color: #333; /* Define o fundo da página como cinza escuro */
+  padding: 0; /* Remove o preenchimento interno padrão do body */
+  margin: 0; /* Remove a margem padrão do body */
 }
 
+/* Estilos para a barra de navegação */
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
-    border-bottom: 1px solid #666;
+  display: flex; /* Usa flexbox para layout dos itens filhos */
+  justify-content: space-between; /* Distribui os itens com espaço entre eles */
+  padding: 20px; /* Espaçamento interno de 20px */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  border-bottom: 1px solid #666; /* Linha cinza escura abaixo da barra de navegação */
 }
 
+/* Estilos para a lista não ordenada dentro do nav */
 nav ul {
-    display: flex;
-    list-style: none;
+  display: flex; /* Usa flexbox para os itens da lista ficarem na horizontal */
+  list-style: none; /* Remove os marcadores padrão da lista */
 }
 
+/* Espaçamento entre os itens da lista */
 ul li {
-    margin-right: 12px;
+  margin-right: 12px; /* Adiciona margem à direita entre os itens */
 }
 
+/* Estilos para os links dentro dos itens da lista */
 ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.5s;
+  color: #fff; /* Define a cor do link como branco */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  transition: 0.5s; /* Suaviza as transições (por exemplo, ao passar o mouse) */
 }
 
+/* Efeito de hover nos links */
 ul li a:hover {
-    color: rgb(15,120,150);
+  color: rgb(
+    15,
+    120,
+    150
+  ); /* Altera a cor do link ao passar o mouse por cima */
 }
 
+/* Estilo para o título principal */
 h1 {
-    font-size: 32px;
-    color: darkorange;    
+  font-size: 32px; /* Define o tamanho da fonte do h1 */
+  color: darkorange; /* Define a cor do h1 como laranja escuro */
 }
 
+/* Estilo para imagens */
 img {
-    border: 3px solid rgb(15,194,218);
-    height: 300px;
+  border: 3px solid rgb(15, 194, 218); /* Aplica uma borda azul clara de 3px na imagem */
+  height: 300px; /* Define uma altura fixa de 300px para a imagem */
 }
 
+/* Estilo para o rodapé */
 footer {
-    padding:  20px;
-    border-top: 1px solid #666;
-    margin-top: 20px;
+  padding: 20px; /* Adiciona espaçamento interno de 20px */
+  border-top: 1px solid #666; /* Linha cinza escura acima do rodapé */
+  margin-top: 20px; /* Espaço entre o rodapé e o conteúdo acima */
 }

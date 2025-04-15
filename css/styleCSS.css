@@ -1,68 +1,86 @@
+/* Espaçamento interno em todo o corpo da página */
 body {
-    padding: 20px;
+  padding: 20px; /* Adiciona 20px de preenchimento interno ao body */
 }
 
+/* Estilo padrão para todos os parágrafos */
 p {
-    color: darkmagenta;
-    font-size: 20px;
+  color: darkmagenta; /* Cor do texto roxo escuro */
+  font-size: 20px; /* Tamanho da fonte definido como 20px */
 }
 
+/* Estilo aplicado ao h1 com id="titulo-principal" */
 #titulo-principal {
-    background-color: black;
-    color: red;
+  background-color: black; /* Fundo preto */
+  color: red; /* Texto vermelho */
 }
 
+/* Se fosse usada, esse estilo aplicaria uma fonte monoespaçada e cor personalizada */
 .p-numerados {
-    font-family: 'Courier New', Courier, monospace;
-    color: blueviolet;
-    background-color: yellowgreen;
+  font-family: "Courier New", Courier, monospace; /* Fonte monoespaçada */
+  color: blueviolet; /* Cor roxa azulada */
+  background-color: yellowgreen; /* Fundo verde amarelado */
 }
 
+/* Estilo específico para o parágrafo com id="p1" */
 #p1 {
-    background-color: blue;
-    color: yellow;
+  background-color: blue; /* Fundo azul */
+  color: yellow; /* Texto amarelo */
 }
 
-#p2 { background-color: black;
-    color: white;
+/* Estilo específico para o parágrafo com id="p2" */
+#p2 {
+  background-color: black; /* Fundo preto */
+  color: white; /* Texto branco */
 }
 
+/* Estilo para h2 (nesse caso, usado para “Teste”) */
 h2 {
-    border-bottom: 1px solid red;
+  border-bottom: 1px solid red; /* Linha vermelha na parte inferior */
 }
 
+/* Estilo global aplicado a todos os elementos da página */
 * {
-    font-family: Arial;
+  font-family: Arial; /* Define a fonte Arial como padrão para todos os elementos */
 }
 
+/* Remove a sublinhado dos links com a classe "decoration" */
 .decoration {
-    text-decoration: none;
+  text-decoration: none; /* Remove o sublinhado do link */
 }
 
+/* Estilo para links já visitados */
 a:visited {
-    color: rgb(241,13,13);
+  color: rgb(241, 13, 13); /* Cor vermelha escura */
 }
 
+/* Estilo ao passar o mouse sobre links */
 a:hover {
-    background-color: yellow;
+  background-color: yellow; /* Cor de fundo amarela ao passar o mouse */
 }
 
+/* Estilos para diferentes tipos de fontes */
+
+/* Fonte com serifa */
 .serifada {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Fontes com serifa */
 }
 
+/* Fonte sem serifa */
 .sem-serifa {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; /* Fontes sem serifa */
 }
 
+/* Fonte monoespaçada */
 .monoespacada {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace; /* Fontes com espaçamento fixo */
 }
 
+/* Estilo para o box model */
 .caixa {
-    width: 150px;
-    height: 100px;
-    border: 10px solid blue;
-    padding: 50px;
-    margin: 10px;
+  width: 150px; /* Largura da caixa */
+  height: 100px; /* Altura da caixa */
+  border: 10px solid blue; /* Borda azul de 10px */
+  padding: 50px; /* Preenchimento interno de 50px */
+  margin: 10px; /* Margem externa de 10px */
 }
